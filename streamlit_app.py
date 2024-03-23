@@ -37,6 +37,8 @@ def generate_issue():
         "Inventory management system errors",
         "Customer data not loading in CRM",
         "Collaboration tool not sending notifications"
+        "Others"
+        "No Internet"
     ]
     return np.random.choice(issues)
 
